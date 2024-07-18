@@ -1,0 +1,74 @@
+@import '../../style/variables.scss';
+.terms-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-link {
+    text-decoration: none;
+    color:$color-primary;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-content {
+    flex-grow: 1;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    box-shadow: 10 10 10px rgb(0, 0, 0, 0.5);
+    z-index: -1;
+    padding-top:10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terms{
+    color: $text-light;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+.footer .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
